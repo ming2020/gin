@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"github.com/gin-contrib/sse"
-	"github.com/gin-gonic/gin/binding"
-	"github.com/gin-gonic/gin/render"
+	"github.com/ming2020/gin/binding"
+	"github.com/ming2020/gin/render"
 )
 
 // Content-Type MIME of the most common data formats.
@@ -34,7 +34,7 @@ const (
 	MIMEPOSTForm          = binding.MIMEPOSTForm
 	MIMEMultipartPOSTForm = binding.MIMEMultipartPOSTForm
 	MIMEYAML              = binding.MIMEYAML
-	BodyBytesKey          = "_gin-gonic/gin/bodybyteskey"
+	BodyBytesKey          = "_ming2020/gin/bodybyteskey"
 )
 
 const abortIndex int8 = math.MaxInt8 / 2
